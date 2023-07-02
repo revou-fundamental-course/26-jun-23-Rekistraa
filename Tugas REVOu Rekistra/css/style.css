@@ -1,0 +1,58 @@
+body {
+    background-color: olivedrab;
+    margin: 30px;
+}
+#headerNavigation {
+    display: flex;
+    justify-content: space-between;
+}
+#navigation {
+display: flex;
+gap: 10px;
+}
+#headerTitle {
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+}
+#super {
+    color: rgb(78, 74, 74);
+    padding-top: 100px;
+    padding-bottom: 0%;
+    font-size: 35px
+}
+.sub {
+    color: rgb(187, 185, 185);
+    font-weight: lighter;
+}
+#sub {
+    color: rgb(187, 185, 185);
+    font-weight: lighter;
+    padding-bottom: 50px;
+}
+
+/*MARK: panggil section */
+#panggil {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+#article {
+    flex-basis: 60%;
+    flex-grow: 0;
+    margin-left: 32px;
+}
+#form {
+    flex-basis: 40%;
+    flex-grow: 0;
+    background-color: rgb(124, 223, 91);
+    border-radius: 5px;
+    margin-right: 32px;
+}
+.subform {
+    margin: 8px 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
