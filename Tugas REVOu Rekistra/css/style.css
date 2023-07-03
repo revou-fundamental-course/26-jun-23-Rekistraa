@@ -19,7 +19,7 @@ gap: 10px;
     color: rgb(78, 74, 74);
     padding-top: 100px;
     padding-bottom: 0%;
-    font-size: 35px
+    font-size: 50px
 }
 .sub {
     color: rgb(187, 185, 185);
@@ -38,12 +38,12 @@ gap: 10px;
     gap: 0px;
 }
 #article {
-    flex-basis: 60%;
+    flex-basis: 70%;
     flex-grow: 0;
     margin-left: 60px;
 }
 #form {
-    flex-basis: 40%;
+    flex-basis: 30%;
     flex-grow: 0;
     background-color: rgba(192, 231, 180, 0.3);
     border-radius: 5px;
@@ -96,4 +96,22 @@ ul.none {
     margin-top: 0;
     margin-bottom: 0;
     color: rgb(187, 185, 185);
+}
+.jeda {
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.demo-bg {
+    opacity: 0.6;
+    position: absolute;
+    width: 1900px;
+    border-radius: 80px;
+} 
+#jeda {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    position: relative;
+    align-self: center;
 }
