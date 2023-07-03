@@ -35,24 +35,37 @@ gap: 10px;
 #panggil {
     display: flex;
     flex-direction: row;
-    gap: 16px;
+    gap: 0px;
 }
 #article {
     flex-basis: 60%;
     flex-grow: 0;
-    margin-left: 32px;
+    margin-left: 60px;
 }
 #form {
     flex-basis: 40%;
     flex-grow: 0;
-    background-color: rgb(124, 223, 91);
+    background-color: rgba(192, 231, 180, 0.3);
     border-radius: 5px;
-    margin-right: 32px;
+    margin-right: 60px;
 }
 .subform {
     margin: 8px 8px;
     display: flex;
     align-items: center;
     flex-direction: column;
-    
 }
+#subformtitle {
+    margin-left: 50px;
+}
+#benefit {
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    margin-left: 60px;
+}
+ul.none {
+    list-style-type: none;
+    padding-left: 60px;
+    
+  }
