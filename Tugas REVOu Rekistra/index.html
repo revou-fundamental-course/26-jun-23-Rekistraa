@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="stylef.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <title>Se-Kali-an</title>
 </head>
 <body>
@@ -23,17 +26,59 @@
     </header>
     <main>
         <section id="panggil">
-            <article id="article">
-                <img src="assets/Traditional Market Vegetable1.jpg" width="800px">
+            <div id="article">
+                <img src="assets/Traditional Market Vegetable1.jpg" width="600px">
                 <h4 class="sub">Menyediakan berkali-kali untuk kalian setiap bulan</h4>
-            </article>
-            <section id="form">
-                <h4 class="subform">Panggil Se-Kali</h4>
-                <h6 class="subform">Tunggu kami memanggil kali-an</h6>
-                <h6 id="subformtitle">Namamu</h6>
-                <h6 id="subformtitle">Alamat Surelmu</h6>
-                <h6 id="subformtitle">Paket Sekali-mu</h6> 
-            </section>
+            </div>
+            <div class="container">
+                <div class="title">Panggil Kami</div>
+                <form action="#">
+                    <div class="user-details">
+                        <div class="input-box">
+                            <span class="details">Nama Lengkap</span>
+                            <input type="text" placeholder="Ketik nama lengkap kali-an" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Surel</span>
+                            <input type="email" placeholder="Ketik surel kali-an" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Nomor Telepon</span>
+                            <input type="text" placeholder="Ketik nomor telepon kali-an" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Paket Se-kali</span>
+                            <input type="text" placeholder="Pilih paket se-kali kali-an" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Tanggal Kirim</span>
+                            <input type="date" required>
+                        </div>
+                    </div>
+                    <div class="gender-details">
+                        <input type="radio" name="gender" id="dot-1">
+                        <input type="radio" name="gender" id="dot-2">
+                        <input type="radio" name="gender" id="dot-3">
+                        <span class="gender-title">Jenis Kelamin</span>
+                        <div class="category">
+                            <label for="dot-1">
+                                <span class="dot one"></span>
+                                <span class="gender">Laki-laki</span>
+                            </label>
+                            <label for="dot-2">
+                                <span class="dot two"></span>
+                                <span class="gender">Perempuan</span>
+                            </label>
+                            <label for="dot-3">
+                                <span class="dot three"></span>
+                                <span class="gender">Memilih Diam</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="button">
+                        <input type="submit" value="Register">
+                    </div>
+                </form>
         </section>
         <section id="benefit">
             <h2>Apa yang kali-an Dapatkan saat Pakai Se-Kali-an?</h2>
