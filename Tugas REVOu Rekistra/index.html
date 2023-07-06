@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="stylef.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <title>Se-Kali-an</title>
@@ -12,23 +11,36 @@
 <body>
     <header> 
         <section id="headerNavigation">
-            <a href="">Logo</a>
+            <a href="">
+                <img src="assets/Vegetable Ex1.jpg" class="logo">
+            </a>
             <nav id="navigation">
+                <div class="tiapnav1">
                 <a href="">Rumah Kali-an</a>
+                </div>
+                <div class="tiapnav1">
                 <a href="">Sekali-Kali</a>
+                </div>
+                <div class="tiapnav3">
                 <a href="">Panggil Se-kali</a>
+                </div>
             </nav>
         </section>
         <section id="headerTitle">
             <h1 id="super">Beli Se-kali untuk Kali-an</h1>
             <h2 class="sub" id="sub">Se-bulan Sekali, Kenapa Gak Se-kali-an?</h2>
         </section>
+        <hr>
     </header>
     <main>
         <section id="panggil">
             <div id="article">
-                <img src="assets/Traditional Market Vegetable1.jpg" width="600px">
-                <h4 class="sub">Menyediakan berkali-kali untuk kalian setiap bulan</h4>
+                <img src="assets/Traditional Market Vegetable1.jpg">
+                <h4 class="sub">"Menyediakan berkali-kali untuk kalian setiap bulan"</h4>
+                <div class="quote">
+                    <img src="assets/Menjajakan.jpg" class="menjajakan">
+                    <h3 class="menurutdia">Menurut Dia</h3>
+                </div>
             </div>
             <div class="container">
                 <div class="title">Panggil Kami</div>
@@ -36,23 +48,23 @@
                     <div class="user-details">
                         <div class="input-box">
                             <span class="details">Nama Lengkap</span>
-                            <input type="text" placeholder="Ketik nama lengkap kali-an" required>
+                            <input type="text" id="namalengkap" placeholder="Ketik nama lengkap kali-an" required>
                         </div>
                         <div class="input-box">
                             <span class="details">Surel</span>
-                            <input type="email" placeholder="Ketik surel kali-an" required>
+                            <input type="email" id="surel" placeholder="Ketik surel kali-an" required>
                         </div>
                         <div class="input-box">
                             <span class="details">Nomor Telepon</span>
-                            <input type="text" placeholder="Ketik nomor telepon kali-an" required>
+                            <input type="text" id="nomor" placeholder="Ketik nomor telepon kali-an" required>
                         </div>
                         <div class="input-box">
                             <span class="details">Paket Se-kali</span>
-                            <input type="text" placeholder="Pilih paket se-kali kali-an" required>
+                            <input type="text" id="paketsekali" placeholder="Pilih paket se-kali kali-an" required>
                         </div>
                         <div class="input-box">
                             <span class="details">Tanggal Kirim</span>
-                            <input type="date" required>
+                            <input type="date" id="tanggal" required>
                         </div>
                     </div>
                     <div class="gender-details">
@@ -76,12 +88,12 @@
                         </div>
                     </div>
                     <div class="button">
-                        <input type="submit" value="Register">
+                        <input type="submit" id="submitbutton" value="Register">
                     </div>
                 </form>
         </section>
         <section id="benefit">
-            <h2>Apa yang kali-an Dapatkan saat Pakai Se-Kali-an?</h2>
+            <h4 id="super">Apa yang kali-an Dapatkan saat Pakai Se-Kali-an?</h4>
             <section id="logolist">
             <div class="listgambar">
                 <img src="assets/Logo1.png" width="40px">
@@ -90,13 +102,14 @@
             </div>
             <div id="dalambenefit">
                 <ul class="none">
-                    <li>Sekali panggil, kami jangkau, kali-an nanti</li>
-                    <li>Sekali cari, kebutuhan jadi terpenuhi</li>
-                    <li>Sekali beli, hidup mudah per bulannya</li>
+                    <li class="benefit">Sekali panggil, kami jangkau, kali-an nanti</li>
+                    <li class="benefit">Sekali cari, kebutuhan jadi terpenuhi</li>
+                    <li class="benefit">Sekali beli, hidup mudah per bulannya</li>
                 </ul>
             </div>
             </section>
         </section>
+        <hr>
         <br>
         <div class="jeda">
             <img
@@ -105,10 +118,45 @@
               alt=""
             >
             <div id="jeda">
-              <h1>Se-kali dari Kami</h1>
+              <h1> Paket Se-kali dari Kami</h1>
             </div>
         </div>
+        <section id="paketan">
+            <div class="paketatas">
+                <dl>
+                    <dt>Paket Se-adanya</dt>
+                        <dd>Se-adanya adalah paket dari kami yang hanya dapat memenuhi kebutuhan pokok kali-an</dd>
+                        <dd>Paket ini meliputi: beras, air, deterjen, lauk-pauk, minyak, dan kebutuhan mandi</dd>
+                </dl>
+            </div>
+            <div class="paketatas">
+                <dl>
+                    <dt>Paket Se-bisanya</dt>
+                        <dd>Se-bisanya adalah paket dari kami yang mencukupi beberapa kebutuhan tambahan di luar kebutuhan pokok kali-an!</dd>
+                        <dd>blablalbalbal</dd>
+                </dl>
+            </div>
+            <div class="paketatas">
+                <dl>
+                    <dt>Paket se-utuhnya</dt>
+                        <dd>Se-utuhnya blawblalblablal</dd>
+                        <dd>Paket ini blablwalblwlawdl</dd>
+                </dl>
+             </div>
+                </dl>
+            </div>
+        </section>
+            <hr>
+            <section id="paketan">
+            <div class="paketbawah">
+                <dl>
+                    <dt>Paket Se-lengkapnya</dt>
+                        <dd>Se-lengkapnya adalah paket dari kami yang hanya dapat memenuhi kebutuhan pokok kali-an</dd>
+                        <dd>Paket ini meliputi: beras, air, deterjen, lauk-pauk, minyak, dan kebutuhan mandi</dd>
+                </dl>
+            </section>
         
     </main>
+    <script src="/Tugas REVOu Rekistra/js/script.js"></script>
 </body>
 </html>
